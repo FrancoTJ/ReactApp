@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-color: #fff159;
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  padding-left: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav li{
+  padding-right: 1.5em !important; 
+}

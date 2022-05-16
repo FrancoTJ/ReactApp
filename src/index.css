@@ -12,8 +12,7 @@ code {
     monospace;
 }
 
-
-picture {
+/* picture {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -27,4 +26,8 @@ img {
 }
 img.disabled {
   opacity: 0.3;
+} */
+
+.navbar-nav li{
+   padding-right: 1.5em important; 
 }

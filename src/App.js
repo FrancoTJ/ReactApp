@@ -1,30 +1,20 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
+import 'bootstrap/dist/css/bootstrap.css';
+import NavBar from './components/NavBar/NavBar';
 import "./App.css";
 
-const AvatarJSX = (props) => {
-  console.log(props);
-  const src = `https://randomuser.me/api/portraits/lego/${props.id}.jpg`;
 
-  return (
-    <picture>
-      <img src={src} alt="Lego 1" />
-      {props.name}
-    </picture>
-  );
-};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <AvatarJSX id={2} name={"Seba"}/>
-        <AvatarJSX id={3} name={"Alejandro"}/>
-        <AvatarJSX id={4} name={"Nicolas"}/>
+      <NavBar />
+      <h2>Sitio en construcción...</h2>
 
-      </header>
     </div>
   );
 }
 
 export default App;
+
+
