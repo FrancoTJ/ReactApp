@@ -24,9 +24,9 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -37,18 +37,7 @@
   }
 }
 
-.navbar {
-  background-color: #fff159;
-  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-  padding-left: 1.5em;
-  font-weight: bold;
+body {
+  background-color: #ebebeb;
 }
 
-.navbar-nav{
-  display: flex;
-  flex-direction: row;
-}
-
-.navbar-nav li{
-  padding-right: 1.5em !important; 
-}

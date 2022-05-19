@@ -1,0 +1,6 @@
+.cardItem {
+    border: 1px solid gray;
+    background-color:white;
+    height: 80vh;
+    margin: 15px 10px 30px 10px ;
+}

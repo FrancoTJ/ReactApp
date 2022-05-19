@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #fff159;
+  font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica,
+    Roboto, Arial, sans-serif;
+  padding-left: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-ul li {
+  padding-right: 1.5em !important;
+}
+
+.navbar--version {
+  margin-right: auto; /*No me lo aplica, favor Ambar indicame cómo poder usarlo acá. */
+}
