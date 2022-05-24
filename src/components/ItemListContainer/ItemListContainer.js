@@ -1,7 +1,14 @@
+import Item from "../Item/Item";
 import "./ItemListContainer.css";
 
 const ItemListContainer = (props) => {
-  return <div className='cardItem'>{props.nombre} - {props.moneda}{props.precio}</div>
+  return (
+  <div>
+    <Item />
+  
+  </div>
+  
+  )
     
 };
 
