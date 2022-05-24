@@ -1,28 +1,13 @@
-import { useState } from "react";
-import "./Item.css";
+import ItemCount from "../ItemCount/ItemCount";
 
 const Item = () => {
-  const [contador, setContador] = useState(0);
-
-  const addItem = () => {
-    //if (contador <= stock) //Pendiente control de Stock
-    setContador(contador + 1);
-  };
-  const subItem = () => {
-    if (contador > 0) setContador(contador - 1);
-  };
-
   return (
-    <div className='itemCard'>
+    <div className="itemCard">
       <div>
-        <img src="https://via.placeholder.com/250"></img>
+        <img src="https://via.placeholder.com/250" alt='Nombre Artículo'></img>
       </div>
       <div>Nombre Artículo</div>
-      <div className='itemCounter'>
-        <span  onClick={subItem}>-</span>
-        <p>{contador}</p>
-        <span onClick={addItem}>+</span>
-      </div>
+      <ItemCount stock={5} initial={1} />
     </div>
   );
 };

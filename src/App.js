@@ -1,7 +1,7 @@
 //import logo from "./logo.svg";
 import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from './components/NavBar/NavBar';
 import "./App.css";
+import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 
